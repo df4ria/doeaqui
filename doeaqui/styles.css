@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d4f0ff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+header .initiative {
+    background-color: #b8e0f7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main .content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+main .content .column, .left-column, .right-column {
+    width: 48%;
+}
+
+.column h2, .left-column h2, .right-column h2 {
+    color: #005f9e;
+}
+
+.column p, .left-column p, .right-column p {
+    line-height: 1.6;
+}
+
+.column a, .left-column a, .right-column a {
+    color: #005f9e;
+    text-decoration: none;
+}
+
+.column a:hover, .left-column a:hover, .right-column a:hover {
+    text-decoration: underline;
+}
+
+.small-image {
+    width: 25%; /* Ajusta o tamanho das imagens para 25% */
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.large-image {
+    width: 50%; /* Ajusta o tamanho da imagem de doação para 50% */
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
